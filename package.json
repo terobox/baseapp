@@ -52,6 +52,7 @@
     "react-scripts": "3.4.3",
     "react-scroll": "^1.8.1",
     "react-select": "^3.2.0",
+    "react-tinder-card": "^1.4.5",
     "recharts": "^1.8.5",
     "redux": "^4.0.1",
     "redux-saga": "^1.1.3",

@@ -9,15 +9,15 @@ import { DocTradeUserApiDataInterface } from './types';
 describe('Documentation reducer', () => {
     const fakeResponse: DocTradeUserApiDataInterface = {
         info: {
-            title: 'Peatio User API v2',
-            description: 'API for Peatio application.',
+            title: 'Bitdark User API v2',
+            description: 'API for Bitdark application.',
             contact: {
-                name: 'openware.com',
-                email: 'hello@openware.com',
-                url: 'https://www.openware.com',
+                name: 'bitdark.io',
+                email: 'support@bitdark.io',
+                url: 'https://www.bitdark.io',
             },
             license: {
-                url: 'https://github.com/openware/peatio/blob/master/LICENSE.md',
+                url: 'https://www.bitdark.io',
             },
             version: '2.6.0-89e3acd',
         },
