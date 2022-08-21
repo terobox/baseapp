@@ -18,6 +18,7 @@ ENV REACT_APP_SENTRY_ORGANIZATION=${REACT_APP_SENTRY_ORGANIZATION}
 ENV REACT_APP_SENTRY_PROJECT=${REACT_APP_SENTRY_PROJECT}
 
 RUN yarn install
+RUN npx browserslist@latest --update-db
 RUN ./scripts/build.sh
 
 FROM nginx:mainline-alpine
