@@ -17,7 +17,7 @@ ENV REACT_APP_SENTRY_KEY=${REACT_APP_SENTRY_KEY}
 ENV REACT_APP_SENTRY_ORGANIZATION=${REACT_APP_SENTRY_ORGANIZATION}
 ENV REACT_APP_SENTRY_PROJECT=${REACT_APP_SENTRY_PROJECT}
 
-RUN yarn install
+RUN yarn install --network-timeout 1000000
 RUN npx browserslist@latest --update-db
 RUN ./scripts/build.sh
 
